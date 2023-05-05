@@ -53,14 +53,30 @@
 
 //----------------------------------------------------------------------------------------;
 
-let nr1 = [1,2,3,4,5];
-let nr2 = [6,7,8,9,10];
-console.log("array 1 : " + nr1);
-console.log(" array 2 : "+ nr2);
+// let nr1 = [1,2,3,4,5];
+// let nr2 = [6,7,8,9,10];
+// console.log("array 1 : " + nr1);
+// console.log(" array 2 : "+ nr2);
 
-let nr3 = [...nr1,...nr2];
-console.log("novo array : " + nr3);
+// let nr3 = [...nr1,...nr2];
+// console.log("novo array : " + nr3);
 
-nr3.forEach((nr) => {
-        console.log("itens do novo array: " + nr)
-    });
+// nr3.forEach((nr) => {
+//         console.log("itens do novo array: " + nr)
+//     });
+
+//----------------------------------------------------------------------------------------;
+
+const imgElements = document.getElementsByTagName("img");
+
+const imgElementsArray = [...imgElements];
+imgElementsArray.forEach
+console.log(imgElementsArray);
+
+imgElements.array.forEach(img => {
+    img.setAttribute("width", "10%");
+});
+
+const pElements = document.querySelectorAll("p");
+console.log(pElements.item.name(0));
+
