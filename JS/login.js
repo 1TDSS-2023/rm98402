@@ -55,3 +55,7 @@ eyePass.addEventListener("click", ()=>{
     }
 
 });
+
+addEventListener("click", (elementoDisparadoDoEvento)=>{
+    
+});
